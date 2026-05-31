@@ -137,6 +137,12 @@
                         >
                             Schedule call
                         </button>
+                        <button
+                            class="tab-btn"
+                            onclick="openTab(event, 'projects')"
+                        >
+                            Projects
+                        </button>
                     </div>
 
                     <div
@@ -376,6 +382,16 @@
                                 height="800px"
                                 frameborder="0"
                             ></iframe>
+                        </div>
+                    </section>
+                    <section
+                        class="tab-content tw-relative tw-flex tw-hidden tw-h-full tw-w-full tw-flex-col tw-overflow-hidden max-lg:tw-p-4"
+                        data-tab-name="projects"
+                    >
+                        <div
+                            class="tw-flex tw-h-full tw-w-full tw-flex-wrap tw-place-content-center tw-gap-6 tw-p-[5%] tw-px-[10%] max-xl:tw-place-items-center max-lg:tw-px-4"
+                            id="projects-container"
+                        >
                         </div>
                     </section>
                 </div>
