@@ -1,0 +1,7 @@
+{"type":"click","text":"my-project\n        \n        A web app that helps teams collaborate on design projects in real time.\n        \n          ● JavaScript\n          ★ 42","choice":"a","id":null,"timestamp":1780249829177}
+{"type":"click","text":"cli-tool\n        \n        A command-line utility for automating repetitive dev workflows.\n        \n          ● Python\n          ★ 18","choice":"a","id":null,"timestamp":1780249831138}
+{"type":"click","text":"portfolio-site\n        \n        My personal portfolio built with vanilla HTML, CSS, and Tailwind.\n        \n          ● HTML\n          ★ 7","choice":"a","id":null,"timestamp":1780249831732}
+{"type":"click","text":"my-project\n          A web app that helps teams collaborate on design projects in real time.\n          \n            ● JavaScript\n            ★ 42\n            View on GitHub →","choice":"b","id":null,"timestamp":1780249838009}
+{"type":"click","text":"my-project\n          Real-time collaboration for design teams\n        \n        \n          ★ 42\n          JS","choice":"c","id":null,"timestamp":1780249843152}
+{"type":"click","text":"cli-tool\n          Automate repetitive dev workflows\n        \n        \n          ★ 18\n          Py","choice":"c","id":null,"timestamp":1780249844557}
+{"type":"click","text":"portfolio-site\n          Personal portfolio website\n        \n        \n          ★ 7\n          HTML","choice":"c","id":null,"timestamp":1780249845504}

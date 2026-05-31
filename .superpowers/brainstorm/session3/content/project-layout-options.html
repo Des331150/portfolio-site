@@ -1,0 +1,118 @@
+<h2>Project Card Layout Options</h2>
+<p class="subtitle">Which style fits best with the existing portfolio design?</p>
+
+<div class="section">
+  <h3>A: Grid Cards (matches Skills section)</h3>
+  <div class="cards" style="grid-template-columns: 1fr 1fr 1fr;">
+    <div class="card" data-choice="a" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 180px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <i class="bi bi-github" style="font-size: 24px;"></i>
+          <strong>my-project</strong>
+        </div>
+        <p style="font-size: 13px; color: #666; flex: 1;">A web app that helps teams collaborate on design projects in real time.</p>
+        <div style="display: flex; gap: 16px; font-size: 13px;">
+          <span>● JavaScript</span>
+          <span>★ 42</span>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-choice="a" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 180px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <i class="bi bi-github" style="font-size: 24px;"></i>
+          <strong>cli-tool</strong>
+        </div>
+        <p style="font-size: 13px; color: #666; flex: 1;">A command-line utility for automating repetitive dev workflows.</p>
+        <div style="display: flex; gap: 16px; font-size: 13px;">
+          <span>● Python</span>
+          <span>★ 18</span>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-choice="a" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 180px; display: flex; flex-direction: column; gap: 8px;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <i class="bi bi-github" style="font-size: 24px;"></i>
+          <strong>portfolio-site</strong>
+        </div>
+        <p style="font-size: 13px; color: #666; flex: 1;">My personal portfolio built with vanilla HTML, CSS, and Tailwind.</p>
+        <div style="display: flex; gap: 16px; font-size: 13px;">
+          <span>● HTML</span>
+          <span>★ 7</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top: 8px; font-size: 13px; color: #888;">Compact cards in a responsive grid — matches the Skills section aesthetic</p>
+</div>
+
+<div class="section">
+  <h3>B: Horizontal cards (detailed)</h3>
+  <div class="cards" style="grid-template-columns: 1fr;">
+    <div class="card" data-choice="b" onclick="toggleSelect(this)">
+      <div class="card-body" style="display: flex; gap: 16px; align-items: center; min-height: 100px;">
+        <div style="width: 48px; height: 48px; border-radius: 8px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+          <i class="bi bi-github" style="font-size: 28px;"></i>
+        </div>
+        <div style="flex: 1;">
+          <strong style="font-size: 16px;">my-project</strong>
+          <p style="font-size: 13px; color: #666; margin-top: 4px;">A web app that helps teams collaborate on design projects in real time.</p>
+          <div style="display: flex; gap: 16px; font-size: 13px; margin-top: 8px;">
+            <span>● JavaScript</span>
+            <span>★ 42</span>
+            <a href="#" style="color: #155eef;">View on GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top: 8px; font-size: 13px; color: #888;">Full-width cards with more detail and a CTA link — cleaner for fewer projects</p>
+</div>
+
+<div class="section">
+  <h3>C: Minimal language-colored cards</h3>
+  <div class="cards" style="grid-template-columns: 1fr 1fr 1fr;">
+    <div class="card" data-choice="c" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 150px; display: flex; flex-direction: column;">
+        <div style="flex: 1;">
+          <strong>my-project</strong>
+          <p style="font-size: 12px; color: #888; margin-top: 8px;">Real-time collaboration for design teams</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 12px; border-top: 3px solid #f7df1e; padding-top: 8px;">
+          <span>★ 42</span>
+          <span>JS</span>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-choice="c" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 150px; display: flex; flex-direction: column;">
+        <div style="flex: 1;">
+          <strong>cli-tool</strong>
+          <p style="font-size: 12px; color: #888; margin-top: 8px;">Automate repetitive dev workflows</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 12px; border-top: 3px solid #3572A5; padding-top: 8px;">
+          <span>★ 18</span>
+          <span>Py</span>
+        </div>
+      </div>
+    </div>
+    <div class="card" data-choice="c" onclick="toggleSelect(this)">
+      <div class="card-body" style="min-height: 150px; display: flex; flex-direction: column;">
+        <div style="flex: 1;">
+          <strong>portfolio-site</strong>
+          <p style="font-size: 12px; color: #888; margin-top: 8px;">Personal portfolio website</p>
+        </div>
+        <div style="display: flex; justify-content: space-between; font-size: 12px; border-top: 3px solid #e34c26; padding-top: 8px;">
+          <span>★ 7</span>
+          <span>HTML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top: 8px; font-size: 13px; color: #888;">Language accent bar on top — very compact, language as visual cue</p>
+</div>
+
+<div class="section" style="margin-top: 24px; padding: 16px; background: #f8f9fa; border-radius: 8px;">
+  <p style="font-size: 14px; color: #333;">Click a card to select your preferred style, then tell me your choice in the terminal.</p>
+</div>
