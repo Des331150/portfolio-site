@@ -151,7 +151,10 @@ function renderProjects(container, repos) {
         header.appendChild(icon)
 
         const link = document.createElement('a')
-        link.href = repo.html_url
+        const repoUrl = (typeof repo.html_url === 'string' && repo.html_url.startsWith('https://'))
+            ? repo.html_url
+            : '#'
+        link.href = repoUrl
         link.target = '_blank'
         link.rel = 'noopener noreferrer'
         link.className = 'tw-text-lg tw-font-semibold tw-text-black hover:tw-text-primary dark:tw-text-white dark:hover:tw-text-primary tw-transition-colors'
